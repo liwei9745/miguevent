@@ -7,8 +7,8 @@ date_default_timezone_set('Asia/Shanghai');
 
 // ========== 用户信息（固定写死防泄露） ==========
 // 默认写死的会员信息
-$defaultUserId    = "你的userId";
-$defaultUserToken = "你的userToken";
+$defaultUserId    = 1667616996;
+$defaultUserToken = nlps47E5A441B6B15E68A605;
 
 // 优先使用 URL 传参，如果没有则使用默认值
 $userId    = $_GET['userId'] ?? $defaultUserId;
